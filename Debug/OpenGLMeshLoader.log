@@ -1,0 +1,25 @@
+﻿Build started 12/16/2017 7:58:07 AM.
+     1>Project "C:\Users\mina_\Desktop\graphicsss\project v11\Project\OpenGLMeshLoader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\\.." /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGLMeshLoader.cpp
+         OpenGLMeshLoader.cpp
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\texturebuilder.h(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\texturebuilder.h(28): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\openglmeshloader.cpp(1124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\openglmeshloader.cpp(1150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\openglmeshloader.cpp(1177): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mina_\desktop\graphicsss\project v11\project\openglmeshloader.cpp(1176): warning C4101: 'str3' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\OpenGLMeshLoader.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\\.." glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\OpenGLMeshLoader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\OpenGLMeshLoader.lib" /MACHINE:X86 Debug\GLTexture.obj
+         Debug\Model_3DS.obj
+         Debug\OpenGLMeshLoader.obj
+     1>GLTexture.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         OpenGLMeshLoader.vcxproj -> C:\Users\mina_\Desktop\graphicsss\project v11\Project\Debug\OpenGLMeshLoader.exe
+     1>Done Building Project "C:\Users\mina_\Desktop\graphicsss\project v11\Project\OpenGLMeshLoader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47
